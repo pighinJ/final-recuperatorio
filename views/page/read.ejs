@@ -1,0 +1,49 @@
+<%-include('../partials/head')%>
+
+
+<h1 class="tittle">Leer todos los productos</h1>
+<div class="admin-container">
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nombre de producto</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+            <th></th>
+        </tr>
+        <%products.forEach(product=> { %>
+            <tr>
+                <td>
+                    <%= product.id %>
+                </td>
+                <td>
+                    <%= product.nombre_producto %>
+                </td>
+                
+                <td>
+                    <%= product.categoria %>
+                </td>
+                <td>
+                    <%= product.precio_oferta %>
+                </td>
+                <td>
+                    <button>
+                        <a href="/admin/productoactual/<%= product.id%>">Editar</a>
+                    </button>
+
+                    <form action="/admin/delete/<%= product.id %>?_method=DELETE" method="post">
+                        <button>Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+
+            <%}) %>
+
+    </table>
+
+</div>
+
+<div>
+    <button><a href="/admin/agregate">Agregar productos</a></button>
+</div>
+<%-include('../partials/footer')%>

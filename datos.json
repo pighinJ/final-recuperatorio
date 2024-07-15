@@ -1,0 +1,153 @@
+[
+    {
+      "nombre_producto": "Pan Francés",
+      "cantidad_stock": 50,
+      "descripcion": "Pan de masa blanca con una corteza crujiente.",
+      "imagen": "panfrances.png",
+      "categoria": "Pan",
+      "oferta": false,
+      "precio_oferta": null,
+      "precio": 1.5
+    },
+    {
+      "nombre_producto": "Pan Integral",
+      "cantidad_stock": 40,
+      "descripcion": "Pan elaborado con harina integral, ideal para una dieta saludable.",
+      "imagen": "panintegral.png",
+      "categoria": "Pan",
+      "oferta": true,
+      "precio_oferta": 1.8,
+      "precio": 2.0
+    },
+    {
+      "nombre_producto": "Croissant",
+      "cantidad_stock": 30,
+      "descripcion": "Delicioso croissant hojaldrado y dorado.",
+      "imagen": "croissant.png",
+      "categoria": "Panadería",
+      "oferta": false,
+      "precio_oferta": null,
+      "precio": 1.8
+    },
+    {
+      "nombre_producto": "Bollos de canela",
+      "cantidad_stock": 25,
+      "descripcion": "Bollos dulces con canela y glaseado de azúcar.",
+      "imagen": "bollocanela.png",
+      "categoria": "Panadería",
+      "oferta": true,
+      "precio_oferta": 1.0,
+      "precio": 1.2
+    },
+    {
+      "nombre_producto": "Donas",
+      "cantidad_stock": 35,
+      "descripcion": "Donas glaseadas en diferentes sabores: chocolate, fresa, vainilla.",
+      "imagen": "donas.png",
+      "categoria": "Panadería",
+      "oferta": false,
+      "precio_oferta": null,
+      "precio": 1.0
+    },
+    {
+      "nombre_producto": "Empanadas de carne",
+      "cantidad_stock": 20,
+      "descripcion": "Empanadas rellenas de carne picada con especias.",
+      "imagen": "empanadacarne.png",
+      "categoria": "Panadería",
+      "oferta": true,
+      "precio_oferta": 2.0,
+      "precio": 2.5
+    },
+    {
+      "nombre_producto": "Torta de zanahoria",
+      "cantidad_stock": 10,
+      "descripcion": "Torta esponjosa de zanahoria con glaseado de queso crema.",
+      "imagen": "tortazanahoria.png",
+      "categoria": "Pasteles",
+      "oferta": false,
+      "precio_oferta": null,
+      "precio": 3.5
+    },
+    { 
+      "nombre_producto": "Rosquillas",
+      "cantidad_stock": 45,
+      "descripcion": "Rosquillas tradicionales espolvoreadas con azúcar.",
+      "imagen": "rosquila.png",
+      "categoria": "Panadería",
+      "oferta": true,
+      "precio_oferta": 0.9,
+      "precio": 1.2
+    },
+    {
+      "nombre_producto": "Baguette",
+      "cantidad_stock": 20,
+      "descripcion": "Baguette crujiente recién horneada.",
+      "imagen": "baguette.png",
+      "categoria": "Pan",
+      "oferta": false,
+      "precio_oferta": null,
+      "precio": 2.0
+    },
+    {
+      "nombre_producto": "Pan de ajo",
+      "cantidad_stock": 15,
+      "descripcion": "Pan cubierto con mantequilla de ajo y perejil.",
+      "imagen": "panajo.png",
+      "categoria": "Pan",
+      "oferta": false,
+      "precio_oferta": null,
+      "precio": 1.8
+    },
+    {
+      "nombre_producto": "Muffins de arándanos",
+      "cantidad_stock": 30,
+      "descripcion": "Muffins tiernos y esponjosos con arándanos frescos.",
+      "imagen": "muffinarandano.png",
+      "categoria": "Panadería",
+      "oferta": true,
+      "precio_oferta": 1.5,
+      "precio": 1.8
+    },
+    {
+      "nombre_producto": "Galletas de chocolate",
+      "cantidad_stock": 40,
+      "descripcion": "Galletas crujientes con trozos de chocolate.",
+      "imagen": "galletachocolate.png",
+      "categoria": "Panadería",
+      "oferta": false,
+      "precio_oferta": null,
+      "precio": 1.2
+    },
+    {
+      "nombre_producto": "Tarta de manzana",
+      "cantidad_stock": 12,
+      "descripcion": "Tarta casera de manzana con una capa crujiente de hojaldre.",
+      "imagen": "tartamanzana.png",
+      "categoria": "Pasteles",
+      "oferta": true,
+      "precio_oferta": 3.0,
+      "precio": 3.5
+    },
+    {
+      "nombre_producto": "Palmeritas de chocolate",
+      "cantidad_stock": 25,
+      "descripcion": "Palmeritas hojaldradas cubiertas con chocolate.",
+      "imagen": "palmerachocolate.png",
+      "categoria": "Panadería",
+      "oferta": false,
+      "precio_oferta": null,
+      "precio": 1.4
+    },
+    {
+      "nombre_producto": "Pan de maíz",
+      "cantidad_stock": 20,
+      "descripcion": "Pan de maíz dulce, perfecto para acompañar comidas.",
+      "imagen": "panmaiz.png",
+      "categoria": "Pan",
+      "oferta": true,
+      "precio_oferta": 1.2,
+      "precio": 1.5
+    }
+  ]
+  

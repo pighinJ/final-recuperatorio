@@ -1,0 +1,20 @@
+<%- include('../partials/head')%>
+
+    <h1 class="title">Actualizar producto</h1>
+
+    <form action="/admin/updateproducto/<%=products.id%>?_method=PUT" method="post">
+
+        <label for="">Nombre de producto:</label>
+        <input type="text" name="nombre_producto">
+
+        <label for="">Categoria:</label>
+        <input type="text" name="categoria">
+
+        <label for="">Precio</label>
+        <input type="number" name="precio">
+
+        <button class="agregarProductoBtn">Enviar</button>
+    </form>
+
+
+    <%- include('../partials/footer')%>
